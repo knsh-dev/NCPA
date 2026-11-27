@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-sans: "Figtree", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+
+  --color-background: #f5f1e6;
+  --color-foreground: #1e2a1f;
+  --color-card: #fbf8f1;
+  --color-card-foreground: #1e2a1f;
+  --color-popover: #fbf8f1;
+  --color-popover-foreground: #1e2a1f;
+  --color-primary: #2f5233;
+  --color-primary-foreground: #f5f1e6;
+  --color-secondary: #c9d6b8;
+  --color-secondary-foreground: #1e2a1f;
+  --color-muted: #ede7d6;
+  --color-muted-foreground: #5e6b5a;
+  --color-accent: #6b8f57;
+  --color-accent-foreground: #f5f1e6;
+  --color-destructive: #b0453a;
+  --color-destructive-foreground: #fbf8f1;
+  --color-warning: #d9b44a;
+  --color-warning-foreground: #1e2a1f;
+  --color-border: #ddd6c4;
+  --color-input: #ddd6c4;
+  --color-ring: #2f5233;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    margin: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono-num {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
