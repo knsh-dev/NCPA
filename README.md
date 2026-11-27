@@ -85,3 +85,4 @@ npm --prefix frontend run preview
 ## Related Documentation
 
 - **[DESIGN_HANDOFF.md](./DESIGN_HANDOFF.md):** Complete color/typography tokens, layout & radius redlines, component specs, SVG/chart asset reference, input-forgiveness contracts, and Prototype-vs-Code parity notes.
+- **[PROMPTS.md](./PROMPTS.md):** Chronological documentation of the prompts used to build, audit, refine, and document the project.
